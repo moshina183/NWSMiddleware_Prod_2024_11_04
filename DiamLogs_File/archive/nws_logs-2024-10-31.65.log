@@ -1,0 +1,116 @@
+2024-10-31 12:52:30,403 INFO [http-nio-9990-exec-2] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] 
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-31 12:52:30,407 INFO [http-nio-9990-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] 
+Initializing Servlet 'dispatcherServlet'
+2024-10-31 12:52:30,408 DEBUG [http-nio-9990-exec-2] o.s.w.s.DispatcherServlet [DispatcherServlet.java:521] 
+Detected StandardServletMultipartResolver
+2024-10-31 12:52:30,408 DEBUG [http-nio-9990-exec-2] o.s.w.s.DispatcherServlet [DispatcherServlet.java:545] 
+Detected AcceptHeaderLocaleResolver
+2024-10-31 12:52:30,408 DEBUG [http-nio-9990-exec-2] o.s.w.s.DispatcherServlet [DispatcherServlet.java:570] 
+Detected FixedThemeResolver
+2024-10-31 12:52:30,413 DEBUG [http-nio-9990-exec-2] o.s.w.s.DispatcherServlet [DispatcherServlet.java:720] 
+Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@136bb436
+2024-10-31 12:52:30,413 DEBUG [http-nio-9990-exec-2] o.s.w.s.DispatcherServlet [DispatcherServlet.java:784] 
+Detected org.springframework.web.servlet.support.SessionFlashMapManager@400ba02
+2024-10-31 12:52:30,413 DEBUG [http-nio-9990-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:542] 
+enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-10-31 12:52:30,413 INFO [http-nio-9990-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] 
+Completed initialization in 5 ms
+2024-10-31 12:52:30,430 DEBUG [http-nio-9990-exec-2] o.s.w.s.DispatcherServlet [LogFormatUtils.java:119] 
+GET "/api/v2/getCompanyData", parameters={}
+2024-10-31 12:52:30,452 WARN [http-nio-9990-exec-2] o.s.w.s.m.s.DefaultHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:208] 
+Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2024-10-31 12:52:30,454 DEBUG [http-nio-9990-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:1131] 
+Completed 405 METHOD_NOT_ALLOWED
+2024-10-31 12:52:30,464 DEBUG [http-nio-9990-exec-2] o.s.w.s.DispatcherServlet [LogFormatUtils.java:119] 
+"ERROR" dispatch for GET "/error", parameters={}
+2024-10-31 12:52:30,469 DEBUG [http-nio-9990-exec-2] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMapping.java:522] 
+Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-10-31 12:52:30,470 INFO [http-nio-9990-exec-2] c.n.a.i.BaseInterceptor [BaseInterceptor.java:52] 
+Inside prehandle
+2024-10-31 12:53:03,654 INFO [http-nio-9990-exec-2] c.n.a.i.BaseInterceptor [BaseInterceptor.java:232] 
+############Request Processing started for request-id null and esbURL is /error
+2024-10-31 12:56:04,785 INFO [http-nio-9990-exec-2] c.n.a.i.BaseInterceptor [BaseInterceptor.java:248] 
+Invalid URL sent by requestId null
+2024-10-31 12:56:04,786 DEBUG [http-nio-9990-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:1127] 
+Exiting from "ERROR" dispatch, status 404
+2024-10-31 12:56:12,717 DEBUG [http-nio-9990-exec-4] o.s.w.s.DispatcherServlet [LogFormatUtils.java:119] 
+GET "/api/v2/GetBill64?BID=52344072&ccbAccount=7566073616", parameters={masked}
+2024-10-31 12:56:12,720 DEBUG [http-nio-9990-exec-4] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMapping.java:522] 
+Mapped to com.nws.api.controller.DiamControllerVer2#getBill64(String, String, HttpServletRequest, HttpServletResponse, Map)
+2024-10-31 12:56:12,721 INFO [http-nio-9990-exec-4] c.n.a.i.BaseInterceptor [BaseInterceptor.java:52] 
+Inside prehandle
+2024-10-31 12:57:28,939 INFO [http-nio-9990-exec-4] c.n.a.i.BaseInterceptor [BaseInterceptor.java:52] 
+Inside prehandle
+2024-10-31 12:57:57,115 DEBUG [http-nio-9990-exec-7] o.s.w.s.DispatcherServlet [LogFormatUtils.java:119] 
+GET "/api/v2/getCompanyData?BID=52344072&ccbAccount=7566073616", parameters={masked}
+2024-10-31 12:57:57,118 WARN [http-nio-9990-exec-7] o.s.w.s.m.s.DefaultHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:208] 
+Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2024-10-31 12:57:57,119 DEBUG [http-nio-9990-exec-7] o.s.w.s.DispatcherServlet [FrameworkServlet.java:1131] 
+Completed 405 METHOD_NOT_ALLOWED
+2024-10-31 12:57:57,120 DEBUG [http-nio-9990-exec-7] o.s.w.s.DispatcherServlet [LogFormatUtils.java:119] 
+"ERROR" dispatch for GET "/error?BID=52344072&ccbAccount=7566073616", parameters={masked}
+2024-10-31 12:57:57,123 DEBUG [http-nio-9990-exec-7] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMapping.java:522] 
+Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-10-31 12:57:57,123 INFO [http-nio-9990-exec-7] c.n.a.i.BaseInterceptor [BaseInterceptor.java:52] 
+Inside prehandle
+2024-10-31 12:58:13,375 INFO [http-nio-9990-exec-4] c.n.a.i.BaseInterceptor [BaseInterceptor.java:232] 
+############Request Processing started for request-id null and esbURL is /api/v2/GetBill64
+2024-10-31 12:58:13,386 INFO [http-nio-9990-exec-4] c.n.a.f.GetDetails [GetDetails.java:20] 
+Inside getEncryption status.. for service code GetBill64
+2024-10-31 12:58:26,292 DEBUG [http-nio-9990-exec-4] c.n.a.f.GetDetails [GetDetails.java:33] 
+Encryption status is N
+2024-10-31 12:58:26,299 INFO [http-nio-9990-exec-4] c.n.a.i.BaseInterceptor [BaseInterceptor.java:269] 
+Inside DDOS filtering
+2024-10-31 12:58:26,300 INFO [http-nio-9990-exec-4] c.n.a.f.GetDetails [GetDetails.java:170] 
+Inside get error codes.
+2024-10-31 12:58:33,428 INFO [http-nio-9990-exec-4] c.n.a.f.AuthenticationFilter [AuthenticationFilter.java:30] 
+inside request param validation
+2024-10-31 12:58:33,429 ERROR [http-nio-9990-exec-4] c.n.a.f.AuthenticationFilter [AuthenticationFilter.java:51] 
+Invalid api key
+2024-10-31 12:58:33,430 ERROR [http-nio-9990-exec-4] c.n.a.i.BaseInterceptor [BaseInterceptor.java:307] 
+Invalid or empty request params
+2024-10-31 12:58:33,431 ERROR [http-nio-9990-exec-4] c.n.a.i.BaseInterceptor [BaseInterceptor.java:309] 
+Request id not sent
+2024-10-31 12:58:33,488 INFO [http-nio-9990-exec-4] c.n.a.p.ExceptionProcessor [ExceptionProcessor.java:28] 
+Auditing records in AuditDataProcessor.
+2024-10-31 12:58:33,593 INFO [pool-2-thread-1] c.n.a.p.ExceptionProcessor [ExceptionProcessor.java:80] 
+Auditing in database.
+2024-10-31 12:58:33,595 DEBUG [http-nio-9990-exec-4] o.s.w.s.DispatcherServlet [FrameworkServlet.java:1131] 
+Completed 200 OK
+2024-10-31 12:58:43,788 DEBUG [http-nio-9990-exec-8] o.s.w.s.DispatcherServlet [LogFormatUtils.java:119] 
+POST "/api/v2/getCompanyData", parameters={}
+2024-10-31 12:58:43,789 DEBUG [http-nio-9990-exec-8] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMapping.java:522] 
+Mapped to com.nws.api.controller.DiamControllerVer2#getCompanyData(String, HttpServletRequest, HttpServletResponse)
+2024-10-31 12:58:43,790 INFO [http-nio-9990-exec-8] c.n.a.i.BaseInterceptor [BaseInterceptor.java:52] 
+Inside prehandle
+2024-10-31 13:06:50,070 INFO [main] c.n.a.NwsMiddlewareApplication [StartupInfoLogger.java:55] 
+Starting NwsMiddlewareApplication using Java 11.0.10 on DIAM-ITAMIDWARE with PID 142492 (D:\allConfigData\NwsMiddleware\target\classes started by PAMIDMGMT in D:\allConfigData\NwsMiddleware)
+2024-10-31 13:06:50,074 DEBUG [main] c.n.a.NwsMiddlewareApplication [StartupInfoLogger.java:56] 
+Running with Spring Boot v2.7.9, Spring v5.3.25
+2024-10-31 13:06:50,076 INFO [main] c.n.a.NwsMiddlewareApplication [SpringApplication.java:631] 
+No active profile set, falling back to 1 default profile: "default"
+2024-10-31 13:06:50,077 DEBUG [main] o.s.b.SpringApplication [SpringApplication.java:664] 
+Loading source class com.nws.api.NwsMiddlewareApplication
+2024-10-31 13:06:50,137 DEBUG [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java:629] 
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2f058b8a
+2024-10-31 13:06:50,163 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2024-10-31 13:06:50,200 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+2024-10-31 13:06:50,284 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner [ClassPathScanningCandidateComponentProvider.java:435] 
+Identified candidate component class: file [D:\allConfigData\NwsMiddleware\target\classes\com\nws\api\config\WebConfig.class]
+2024-10-31 13:06:50,306 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner [ClassPathScanningCandidateComponentProvider.java:435] 
+Identified candidate component class: file [D:\allConfigData\NwsMiddleware\target\classes\com\nws\api\controller\Controllers.class]
+2024-10-31 13:06:50,312 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner [ClassPathScanningCandidateComponentProvider.java:435] 
+Identified candidate component class: file [D:\allConfigData\NwsMiddleware\target\classes\com\nws\api\controller\DiamControllerVer1.class]
+2024-10-31 13:06:50,316 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner [ClassPathScanningCandidateComponentProvider.java:435] 
+Identified candidate component class: file [D:\allConfigData\NwsMiddleware\target\classes\com\nws\api\controller\DiamControllerVer2.class]
+2024-10-31 13:06:50,319 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner [ClassPathScanningCandidateComponentProvider.java:435] 
+Identified candidate component class: file [D:\allConfigData\NwsMiddleware\target\classes\com\nws\api\esb\ConnectionHelper.class]
+2024-10-31 13:06:50,324 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner [ClassPathScanningCandidateComponentProvider.java:435] 
+Identified candidate component class: file [D:\allConfigData\NwsMiddleware\target\classes\com\nws\api\exception\GlobalExceptionHandler.class]
+2024-10-31 13:06:50,326 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner [ClassPathScanningCandidateComponentProvider.java:435] 
+Identified candidate component class: file [D:\allConfigData\NwsMiddleware\target\classes\com\nws\api\interceptor\BaseInterceptor.class]
+2024-10-31 13:06:50,348 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner [ClassPathScanningCandidateComponentProvider.java:435] 
+Identified candidate component class: file [D:\allConfigData\NwsMiddleware\target\classes\com\nws\api\service\DiamServiceVer1.class]

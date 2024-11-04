@@ -1,0 +1,127 @@
+2024-10-31 12:42:51,898 INFO [http-nio-9990-exec-10] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] 
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-31 12:42:51,930 INFO [http-nio-9990-exec-10] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] 
+Initializing Servlet 'dispatcherServlet'
+2024-10-31 12:42:51,930 DEBUG [http-nio-9990-exec-10] o.s.w.s.DispatcherServlet [DispatcherServlet.java:521] 
+Detected StandardServletMultipartResolver
+2024-10-31 12:42:51,930 DEBUG [http-nio-9990-exec-10] o.s.w.s.DispatcherServlet [DispatcherServlet.java:545] 
+Detected AcceptHeaderLocaleResolver
+2024-10-31 12:42:51,930 DEBUG [http-nio-9990-exec-10] o.s.w.s.DispatcherServlet [DispatcherServlet.java:570] 
+Detected FixedThemeResolver
+2024-10-31 12:42:51,932 DEBUG [http-nio-9990-exec-10] o.s.w.s.DispatcherServlet [DispatcherServlet.java:720] 
+Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@53ab17e3
+2024-10-31 12:42:51,933 DEBUG [http-nio-9990-exec-10] o.s.w.s.DispatcherServlet [DispatcherServlet.java:784] 
+Detected org.springframework.web.servlet.support.SessionFlashMapManager@385981e8
+2024-10-31 12:42:51,933 DEBUG [http-nio-9990-exec-10] o.s.w.s.DispatcherServlet [FrameworkServlet.java:542] 
+enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-10-31 12:42:51,933 INFO [http-nio-9990-exec-10] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] 
+Completed initialization in 3 ms
+2024-10-31 12:42:51,952 DEBUG [http-nio-9990-exec-10] o.s.w.s.DispatcherServlet [LogFormatUtils.java:119] 
+GET "/api/v2/getCompanyData", parameters={}
+2024-10-31 12:42:51,965 WARN [http-nio-9990-exec-10] o.s.w.s.m.s.DefaultHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:208] 
+Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2024-10-31 12:42:51,966 DEBUG [http-nio-9990-exec-10] o.s.w.s.DispatcherServlet [FrameworkServlet.java:1131] 
+Completed 405 METHOD_NOT_ALLOWED
+2024-10-31 12:42:51,980 DEBUG [http-nio-9990-exec-10] o.s.w.s.DispatcherServlet [LogFormatUtils.java:119] 
+"ERROR" dispatch for GET "/error", parameters={}
+2024-10-31 12:42:51,984 DEBUG [http-nio-9990-exec-10] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMapping.java:522] 
+Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-10-31 12:42:51,985 INFO [http-nio-9990-exec-10] c.n.a.i.BaseInterceptor [BaseInterceptor.java:52] 
+Inside prehandle
+2024-10-31 12:42:52,004 INFO [http-nio-9990-exec-10] c.n.a.i.BaseInterceptor [BaseInterceptor.java:232] 
+############Request Processing started for request-id null and esbURL is /error
+2024-10-31 12:42:52,011 INFO [http-nio-9990-exec-10] c.n.a.i.BaseInterceptor [BaseInterceptor.java:248] 
+Invalid URL sent by requestId null
+2024-10-31 12:42:52,012 DEBUG [http-nio-9990-exec-10] o.s.w.s.DispatcherServlet [FrameworkServlet.java:1127] 
+Exiting from "ERROR" dispatch, status 404
+2024-10-31 12:43:09,705 DEBUG [http-nio-9990-exec-8] o.s.w.s.DispatcherServlet [LogFormatUtils.java:119] 
+GET "/api/v2/getCompanyData", parameters={}
+2024-10-31 12:43:09,711 WARN [http-nio-9990-exec-8] o.s.w.s.m.s.DefaultHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:208] 
+Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2024-10-31 12:43:09,712 DEBUG [http-nio-9990-exec-8] o.s.w.s.DispatcherServlet [FrameworkServlet.java:1131] 
+Completed 405 METHOD_NOT_ALLOWED
+2024-10-31 12:43:09,713 DEBUG [http-nio-9990-exec-8] o.s.w.s.DispatcherServlet [LogFormatUtils.java:119] 
+"ERROR" dispatch for GET "/error", parameters={}
+2024-10-31 12:43:09,714 DEBUG [http-nio-9990-exec-8] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMapping.java:522] 
+Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-10-31 12:43:09,714 INFO [http-nio-9990-exec-8] c.n.a.i.BaseInterceptor [BaseInterceptor.java:52] 
+Inside prehandle
+2024-10-31 12:43:09,715 INFO [http-nio-9990-exec-8] c.n.a.i.BaseInterceptor [BaseInterceptor.java:232] 
+############Request Processing started for request-id null and esbURL is /error
+2024-10-31 12:43:09,717 INFO [http-nio-9990-exec-8] c.n.a.i.BaseInterceptor [BaseInterceptor.java:248] 
+Invalid URL sent by requestId null
+2024-10-31 12:43:09,717 DEBUG [http-nio-9990-exec-8] o.s.w.s.DispatcherServlet [FrameworkServlet.java:1127] 
+Exiting from "ERROR" dispatch, status 404
+2024-10-31 12:43:22,970 INFO [RMI TCP Connection(6)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [SpringApplicationAdminMXBeanRegistrar.java:159] 
+Application shutdown requested.
+2024-10-31 12:43:22,974 DEBUG [RMI TCP Connection(6)-127.0.0.1] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:77] 
+Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-10-31 12:43:22,974 DEBUG [RMI TCP Connection(6)-127.0.0.1] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java:1049] 
+Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6175619b, started on Thu Oct 31 12:41:37 GST 2024
+2024-10-31 12:43:22,975 DEBUG [RMI TCP Connection(6)-127.0.0.1] o.s.c.s.DefaultLifecycleProcessor [DefaultLifecycleProcessor.java:365] 
+Stopping beans in phase 2147483647
+2024-10-31 12:43:22,976 DEBUG [RMI TCP Connection(6)-127.0.0.1] o.s.c.s.DefaultLifecycleProcessor [DefaultLifecycleProcessor.java:238] 
+Bean 'webServerGracefulShutdown' completed its stop procedure
+2024-10-31 12:43:22,977 DEBUG [RMI TCP Connection(6)-127.0.0.1] o.s.c.s.DefaultLifecycleProcessor [DefaultLifecycleProcessor.java:365] 
+Stopping beans in phase 2147483646
+2024-10-31 12:43:23,052 INFO [RMI TCP Connection(6)-127.0.0.1] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] 
+Pausing ProtocolHandler ["http-nio-9990"]
+2024-10-31 12:43:23,053 INFO [RMI TCP Connection(6)-127.0.0.1] o.a.c.c.StandardService [DirectJDKLog.java:173] 
+Stopping service [Tomcat]
+2024-10-31 12:43:23,056 INFO [RMI TCP Connection(6)-127.0.0.1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] 
+Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-10-31 12:43:23,103 WARN [RMI TCP Connection(6)-127.0.0.1] o.a.c.l.WebappClassLoaderBase [DirectJDKLog.java:173] 
+The web application [ROOT] appears to have started a thread named [logback-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.10/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.10/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.10/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+ java.base@11.0.10/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+ java.base@11.0.10/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@11.0.10/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+ java.base@11.0.10/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.10/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.10/java.lang.Thread.run(Thread.java:834)
+2024-10-31 12:43:23,109 INFO [RMI TCP Connection(6)-127.0.0.1] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] 
+Stopping ProtocolHandler ["http-nio-9990"]
+2024-10-31 12:43:23,116 INFO [RMI TCP Connection(6)-127.0.0.1] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] 
+Destroying ProtocolHandler ["http-nio-9990"]
+2024-10-31 12:43:23,119 DEBUG [RMI TCP Connection(6)-127.0.0.1] o.s.c.s.DefaultLifecycleProcessor [DefaultLifecycleProcessor.java:238] 
+Bean 'webServerStartStop' completed its stop procedure
+2024-10-31 12:43:23,119 DEBUG [RMI TCP Connection(6)-127.0.0.1] o.s.c.s.DefaultLifecycleProcessor [DefaultLifecycleProcessor.java:365] 
+Stopping beans in phase -2147483647
+2024-10-31 12:43:23,119 DEBUG [RMI TCP Connection(6)-127.0.0.1] o.s.c.s.DefaultLifecycleProcessor [DefaultLifecycleProcessor.java:238] 
+Bean 'springBootLoggingLifecycle' completed its stop procedure
+2024-10-31 12:43:23,121 DEBUG [RMI TCP Connection(6)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter [MBeanExporter.java:452] 
+Unregistering JMX-exposed beans on shutdown
+2024-10-31 12:43:23,123 DEBUG [RMI TCP Connection(6)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:218] 
+Shutting down ExecutorService 'applicationTaskExecutor'
+2024-10-31 12:44:10,156 INFO [main] c.n.a.NwsMiddlewareApplication [StartupInfoLogger.java:55] 
+Starting NwsMiddlewareApplication using Java 11.0.10 on DIAM-ITAMIDWARE with PID 100732 (D:\allConfigData\NwsMiddleware\target\classes started by PAMIDMGMT in D:\allConfigData\NwsMiddleware)
+2024-10-31 12:44:10,161 DEBUG [main] c.n.a.NwsMiddlewareApplication [StartupInfoLogger.java:56] 
+Running with Spring Boot v2.7.9, Spring v5.3.25
+2024-10-31 12:44:10,162 INFO [main] c.n.a.NwsMiddlewareApplication [SpringApplication.java:631] 
+No active profile set, falling back to 1 default profile: "default"
+2024-10-31 12:44:10,163 DEBUG [main] o.s.b.SpringApplication [SpringApplication.java:664] 
+Loading source class com.nws.api.NwsMiddlewareApplication
+2024-10-31 12:44:10,226 DEBUG [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java:629] 
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6175619b
+2024-10-31 12:44:10,251 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2024-10-31 12:44:10,270 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:225] 
+Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+2024-10-31 12:44:10,369 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner [ClassPathScanningCandidateComponentProvider.java:435] 
+Identified candidate component class: file [D:\allConfigData\NwsMiddleware\target\classes\com\nws\api\config\WebConfig.class]
+2024-10-31 12:44:10,379 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner [ClassPathScanningCandidateComponentProvider.java:435] 
+Identified candidate component class: file [D:\allConfigData\NwsMiddleware\target\classes\com\nws\api\controller\Controllers.class]
+2024-10-31 12:44:10,382 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner [ClassPathScanningCandidateComponentProvider.java:435] 
+Identified candidate component class: file [D:\allConfigData\NwsMiddleware\target\classes\com\nws\api\controller\DiamControllerVer1.class]
+2024-10-31 12:44:10,384 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner [ClassPathScanningCandidateComponentProvider.java:435] 
+Identified candidate component class: file [D:\allConfigData\NwsMiddleware\target\classes\com\nws\api\controller\DiamControllerVer2.class]
+2024-10-31 12:44:10,386 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner [ClassPathScanningCandidateComponentProvider.java:435] 
+Identified candidate component class: file [D:\allConfigData\NwsMiddleware\target\classes\com\nws\api\esb\ConnectionHelper.class]
+2024-10-31 12:44:10,387 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner [ClassPathScanningCandidateComponentProvider.java:435] 
+Identified candidate component class: file [D:\allConfigData\NwsMiddleware\target\classes\com\nws\api\exception\GlobalExceptionHandler.class]
+2024-10-31 12:44:10,389 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner [ClassPathScanningCandidateComponentProvider.java:435] 
+Identified candidate component class: file [D:\allConfigData\NwsMiddleware\target\classes\com\nws\api\interceptor\BaseInterceptor.class]
+2024-10-31 12:44:10,402 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner [ClassPathScanningCandidateComponentProvider.java:435] 
+Identified candidate component class: file [D:\allConfigData\NwsMiddleware\target\classes\com\nws\api\service\DiamServiceVer1.class]

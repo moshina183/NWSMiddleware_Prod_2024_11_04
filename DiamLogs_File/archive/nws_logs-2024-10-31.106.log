@@ -1,0 +1,122 @@
+2024-10-31 13:29:27,690 INFO [main] c.n.a.NwsMiddlewareApplication [StartupInfoLogger.java:61] 
+Started NwsMiddlewareApplication in 3.925 seconds (JVM running for 5.572)
+2024-10-31 13:29:27,694 DEBUG [main] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:77] 
+Application availability state LivenessState changed to CORRECT
+2024-10-31 13:29:27,698 DEBUG [main] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:77] 
+Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-10-31 13:29:47,701 INFO [http-nio-9990-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] 
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-31 13:29:47,702 INFO [http-nio-9990-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] 
+Initializing Servlet 'dispatcherServlet'
+2024-10-31 13:29:47,707 DEBUG [http-nio-9990-exec-1] o.s.w.s.DispatcherServlet [DispatcherServlet.java:521] 
+Detected StandardServletMultipartResolver
+2024-10-31 13:29:47,708 DEBUG [http-nio-9990-exec-1] o.s.w.s.DispatcherServlet [DispatcherServlet.java:545] 
+Detected AcceptHeaderLocaleResolver
+2024-10-31 13:29:47,708 DEBUG [http-nio-9990-exec-1] o.s.w.s.DispatcherServlet [DispatcherServlet.java:570] 
+Detected FixedThemeResolver
+2024-10-31 13:29:47,710 DEBUG [http-nio-9990-exec-1] o.s.w.s.DispatcherServlet [DispatcherServlet.java:720] 
+Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6e5e8643
+2024-10-31 13:29:47,711 DEBUG [http-nio-9990-exec-1] o.s.w.s.DispatcherServlet [DispatcherServlet.java:784] 
+Detected org.springframework.web.servlet.support.SessionFlashMapManager@3a19cb2a
+2024-10-31 13:29:47,711 DEBUG [http-nio-9990-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:542] 
+enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-10-31 13:29:47,711 INFO [http-nio-9990-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] 
+Completed initialization in 8 ms
+2024-10-31 13:29:47,730 DEBUG [http-nio-9990-exec-1] o.s.w.s.DispatcherServlet [LogFormatUtils.java:119] 
+GET "/api/v2/getCompanyData", parameters={}
+2024-10-31 13:29:47,749 WARN [http-nio-9990-exec-1] o.s.w.s.m.s.DefaultHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:208] 
+Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2024-10-31 13:29:47,751 DEBUG [http-nio-9990-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:1131] 
+Completed 405 METHOD_NOT_ALLOWED
+2024-10-31 13:29:47,761 DEBUG [http-nio-9990-exec-1] o.s.w.s.DispatcherServlet [LogFormatUtils.java:119] 
+"ERROR" dispatch for GET "/error", parameters={}
+2024-10-31 13:29:47,768 DEBUG [http-nio-9990-exec-1] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMapping.java:522] 
+Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-10-31 13:29:47,769 INFO [http-nio-9990-exec-1] c.n.a.i.BaseInterceptor [BaseInterceptor.java:52] 
+Inside prehandle
+2024-10-31 13:29:47,794 INFO [http-nio-9990-exec-1] c.n.a.i.BaseInterceptor [BaseInterceptor.java:232] 
+############Request Processing started for request-id null and esbURL is /error
+2024-10-31 13:29:47,803 INFO [http-nio-9990-exec-1] c.n.a.i.BaseInterceptor [BaseInterceptor.java:248] 
+Invalid URL sent by requestId null
+2024-10-31 13:29:47,804 DEBUG [http-nio-9990-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:1127] 
+Exiting from "ERROR" dispatch, status 404
+2024-10-31 13:30:17,287 DEBUG [http-nio-9990-exec-3] o.s.w.s.DispatcherServlet [LogFormatUtils.java:119] 
+POST "/api/v2/getCompanyData", parameters={}
+2024-10-31 13:30:17,288 DEBUG [http-nio-9990-exec-3] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMapping.java:522] 
+Mapped to com.nws.api.controller.DiamControllerVer2#getCompanyData(String, HttpServletRequest, HttpServletResponse)
+2024-10-31 13:30:17,288 INFO [http-nio-9990-exec-3] c.n.a.i.BaseInterceptor [BaseInterceptor.java:52] 
+Inside prehandle
+2024-10-31 13:30:17,289 INFO [http-nio-9990-exec-3] c.n.a.i.BaseInterceptor [BaseInterceptor.java:232] 
+############Request Processing started for request-id null and esbURL is /api/v2/getCompanyData
+2024-10-31 13:30:17,290 INFO [http-nio-9990-exec-3] c.n.a.f.GetDetails [GetDetails.java:20] 
+Inside getEncryption status.. for service code getCompanyData
+2024-10-31 13:30:18,028 DEBUG [http-nio-9990-exec-3] c.n.a.f.GetDetails [GetDetails.java:33] 
+Encryption status is N
+2024-10-31 13:30:18,031 INFO [http-nio-9990-exec-3] c.n.a.i.BaseInterceptor [BaseInterceptor.java:269] 
+Inside DDOS filtering
+2024-10-31 13:30:18,033 INFO [http-nio-9990-exec-3] c.n.a.f.GetDetails [GetDetails.java:170] 
+Inside get error codes.
+2024-10-31 13:30:18,123 INFO [http-nio-9990-exec-3] c.n.a.f.AuthenticationFilter [AuthenticationFilter.java:30] 
+inside request param validation
+2024-10-31 13:30:18,123 ERROR [http-nio-9990-exec-3] c.n.a.f.AuthenticationFilter [AuthenticationFilter.java:51] 
+Invalid api key
+2024-10-31 13:30:18,123 ERROR [http-nio-9990-exec-3] c.n.a.i.BaseInterceptor [BaseInterceptor.java:307] 
+Invalid or empty request params
+2024-10-31 13:30:18,123 ERROR [http-nio-9990-exec-3] c.n.a.i.BaseInterceptor [BaseInterceptor.java:309] 
+Request id not sent
+2024-10-31 13:30:18,134 INFO [http-nio-9990-exec-3] c.n.a.p.ExceptionProcessor [ExceptionProcessor.java:28] 
+Auditing records in AuditDataProcessor.
+2024-10-31 13:30:18,219 INFO [pool-2-thread-1] c.n.a.p.ExceptionProcessor [ExceptionProcessor.java:80] 
+Auditing in database.
+2024-10-31 13:30:18,224 DEBUG [http-nio-9990-exec-3] o.s.w.s.DispatcherServlet [FrameworkServlet.java:1131] 
+Completed 200 OK
+2024-10-31 13:31:06,384 INFO [RMI TCP Connection(7)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [SpringApplicationAdminMXBeanRegistrar.java:159] 
+Application shutdown requested.
+2024-10-31 13:31:06,385 DEBUG [RMI TCP Connection(7)-127.0.0.1] o.s.b.a.ApplicationAvailabilityBean [ApplicationAvailabilityBean.java:77] 
+Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-10-31 13:31:06,385 DEBUG [RMI TCP Connection(7)-127.0.0.1] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java:1049] 
+Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@756cf158, started on Thu Oct 31 13:29:24 GST 2024
+2024-10-31 13:31:06,387 DEBUG [RMI TCP Connection(7)-127.0.0.1] o.s.c.s.DefaultLifecycleProcessor [DefaultLifecycleProcessor.java:365] 
+Stopping beans in phase 2147483647
+2024-10-31 13:31:06,389 DEBUG [RMI TCP Connection(7)-127.0.0.1] o.s.c.s.DefaultLifecycleProcessor [DefaultLifecycleProcessor.java:238] 
+Bean 'webServerGracefulShutdown' completed its stop procedure
+2024-10-31 13:31:06,390 DEBUG [RMI TCP Connection(7)-127.0.0.1] o.s.c.s.DefaultLifecycleProcessor [DefaultLifecycleProcessor.java:365] 
+Stopping beans in phase 2147483646
+2024-10-31 13:31:06,503 INFO [RMI TCP Connection(7)-127.0.0.1] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] 
+Pausing ProtocolHandler ["http-nio-9990"]
+2024-10-31 13:31:06,505 INFO [RMI TCP Connection(7)-127.0.0.1] o.a.c.c.StandardService [DirectJDKLog.java:173] 
+Stopping service [Tomcat]
+2024-10-31 13:31:06,509 INFO [RMI TCP Connection(7)-127.0.0.1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] 
+Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-10-31 13:31:06,517 WARN [RMI TCP Connection(7)-127.0.0.1] o.a.c.l.WebappClassLoaderBase [DirectJDKLog.java:173] 
+The web application [ROOT] appears to have started a thread named [logback-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.10/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.10/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.10/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+ java.base@11.0.10/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+ java.base@11.0.10/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@11.0.10/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+ java.base@11.0.10/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.10/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.10/java.lang.Thread.run(Thread.java:834)
+2024-10-31 13:31:06,518 WARN [RMI TCP Connection(7)-127.0.0.1] o.a.c.l.WebappClassLoaderBase [DirectJDKLog.java:173] 
+The web application [ROOT] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.10/java.lang.Object.wait(Native Method)
+ java.base@11.0.10/java.lang.Object.wait(Object.java:328)
+ java.base@11.0.10/java.util.TimerThread.mainLoop(Timer.java:527)
+ java.base@11.0.10/java.util.TimerThread.run(Timer.java:506)
+2024-10-31 13:31:06,520 WARN [RMI TCP Connection(7)-127.0.0.1] o.a.c.l.WebappClassLoaderBase [DirectJDKLog.java:173] 
+The web application [ROOT] appears to have started a thread named [oracle.jdbc.driver.BlockSource.ThreadedCachingBlockSource.BlockReleaser] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.10/java.lang.Object.wait(Native Method)
+ app//oracle.jdbc.driver.BlockSource$ThreadedCachingBlockSource$BlockReleaser.run(BlockSource.java:331)
+2024-10-31 13:31:06,521 WARN [RMI TCP Connection(7)-127.0.0.1] o.a.c.l.WebappClassLoaderBase [DirectJDKLog.java:173] 
+The web application [ROOT] appears to have started a thread named [InterruptTimer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.10/java.lang.Object.wait(Native Method)
+ java.base@11.0.10/java.util.TimerThread.mainLoop(Timer.java:553)
+ java.base@11.0.10/java.util.TimerThread.run(Timer.java:506)
+2024-10-31 13:31:06,528 INFO [RMI TCP Connection(7)-127.0.0.1] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] 
+Stopping ProtocolHandler ["http-nio-9990"]
+2024-10-31 13:31:06,535 INFO [RMI TCP Connection(7)-127.0.0.1] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] 
+Destroying ProtocolHandler ["http-nio-9990"]
+2024-10-31 13:31:06,539 DEBUG [RMI TCP Connection(7)-127.0.0.1] o.s.c.s.DefaultLifecycleProcessor [DefaultLifecycleProcessor.java:238] 
+Bean 'webServerStartStop' completed its stop procedure

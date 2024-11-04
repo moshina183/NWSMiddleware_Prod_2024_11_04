@@ -1,0 +1,8 @@
+2024-10-31 13:41:36,379 DEBUG [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext [AbstractApplicationContext.java:1049] 
+Closing org.springframework.web.context.support.GenericWebApplicationContext@13e9f2e2, started on Thu Oct 31 13:41:30 GST 2024
+2024-10-31 13:41:36,387 DEBUG [SpringApplicationShutdownHook] o.s.c.s.DefaultLifecycleProcessor [DefaultLifecycleProcessor.java:365] 
+Stopping beans in phase -2147483647
+2024-10-31 13:41:36,388 DEBUG [SpringApplicationShutdownHook] o.s.c.s.DefaultLifecycleProcessor [DefaultLifecycleProcessor.java:238] 
+Bean 'springBootLoggingLifecycle' completed its stop procedure
+2024-10-31 13:41:36,402 DEBUG [SpringApplicationShutdownHook] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:218] 
+Shutting down ExecutorService 'applicationTaskExecutor'

@@ -1,0 +1,147 @@
+2024-11-01 05:06:08,054 INFO [http-nio-9990-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] 
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-01 05:06:08,062 INFO [http-nio-9990-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] 
+Initializing Servlet 'dispatcherServlet'
+2024-11-01 05:06:08,062 DEBUG [http-nio-9990-exec-1] o.s.w.s.DispatcherServlet [DispatcherServlet.java:521] 
+Detected StandardServletMultipartResolver
+2024-11-01 05:06:08,062 DEBUG [http-nio-9990-exec-1] o.s.w.s.DispatcherServlet [DispatcherServlet.java:545] 
+Detected AcceptHeaderLocaleResolver
+2024-11-01 05:06:08,062 DEBUG [http-nio-9990-exec-1] o.s.w.s.DispatcherServlet [DispatcherServlet.java:570] 
+Detected FixedThemeResolver
+2024-11-01 05:06:08,067 DEBUG [http-nio-9990-exec-1] o.s.w.s.DispatcherServlet [DispatcherServlet.java:720] 
+Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6bbd122e
+2024-11-01 05:06:08,068 DEBUG [http-nio-9990-exec-1] o.s.w.s.DispatcherServlet [DispatcherServlet.java:784] 
+Detected org.springframework.web.servlet.support.SessionFlashMapManager@63818f61
+2024-11-01 05:06:08,068 DEBUG [http-nio-9990-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:542] 
+enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-11-01 05:06:08,068 INFO [http-nio-9990-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] 
+Completed initialization in 6 ms
+2024-11-01 05:06:08,082 DEBUG [http-nio-9990-exec-1] o.s.w.s.DispatcherServlet [LogFormatUtils.java:119] 
+POST "/api/v2/getCompanyData", parameters={}
+2024-11-01 05:06:08,090 DEBUG [http-nio-9990-exec-1] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMapping.java:522] 
+Mapped to com.nws.api.controller.DiamControllerVer2#getCompanyData(String, HttpServletRequest, HttpServletResponse)
+2024-11-01 05:06:08,093 INFO [http-nio-9990-exec-1] c.n.a.i.BaseInterceptor [BaseInterceptor.java:52] 
+Inside prehandle
+2024-11-01 05:06:08,109 INFO [http-nio-9990-exec-1] c.n.a.i.BaseInterceptor [BaseInterceptor.java:232] 
+############Request Processing started for request-id ab and esbURL is /api/v2/getCompanyData
+2024-11-01 05:06:08,114 INFO [http-nio-9990-exec-1] c.n.a.f.GetDetails [GetDetails.java:20] 
+Inside getEncryption status.. for service code getCompanyData
+2024-11-01 05:06:08,675 DEBUG [http-nio-9990-exec-1] c.n.a.f.GetDetails [GetDetails.java:33] 
+Encryption status is N
+2024-11-01 05:06:08,680 INFO [http-nio-9990-exec-1] c.n.a.i.BaseInterceptor [BaseInterceptor.java:269] 
+Inside DDOS filtering
+2024-11-01 05:06:08,680 INFO [http-nio-9990-exec-1] c.n.a.f.GetDetails [GetDetails.java:170] 
+Inside get error codes.
+2024-11-01 05:06:08,845 INFO [http-nio-9990-exec-1] c.n.a.f.AuthenticationFilter [AuthenticationFilter.java:30] 
+inside request param validation
+2024-11-01 05:06:08,845 INFO [http-nio-9990-exec-1] c.n.a.f.AuthenticationFilter [AuthenticationFilter.java:76] 
+In Timestamp validation
+2024-11-01 05:06:08,846 INFO [http-nio-9990-exec-1] c.n.a.f.AuthenticationFilter [AuthenticationFilter.java:82] 
+The timestamp difference is--
+2024-11-01 05:06:08,847 ERROR [http-nio-9990-exec-1] c.n.a.i.BaseInterceptor [BaseInterceptor.java:333] 
+Invalid timestamp
+2024-11-01 05:06:08,848 INFO [http-nio-9990-exec-1] c.n.a.p.ExceptionProcessor [ExceptionProcessor.java:28] 
+Auditing records in AuditDataProcessor.
+2024-11-01 05:06:08,969 INFO [pool-2-thread-1] c.n.a.p.ExceptionProcessor [ExceptionProcessor.java:80] 
+Auditing in database.
+2024-11-01 05:06:08,975 DEBUG [http-nio-9990-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:1131] 
+Completed 200 OK
+2024-11-01 05:06:22,022 DEBUG [http-nio-9990-exec-3] o.s.w.s.DispatcherServlet [LogFormatUtils.java:119] 
+POST "/api/v2/getCompanyData", parameters={}
+2024-11-01 05:06:22,023 DEBUG [http-nio-9990-exec-3] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMapping.java:522] 
+Mapped to com.nws.api.controller.DiamControllerVer2#getCompanyData(String, HttpServletRequest, HttpServletResponse)
+2024-11-01 05:06:22,023 INFO [http-nio-9990-exec-3] c.n.a.i.BaseInterceptor [BaseInterceptor.java:52] 
+Inside prehandle
+2024-11-01 05:06:22,025 INFO [http-nio-9990-exec-3] c.n.a.i.BaseInterceptor [BaseInterceptor.java:232] 
+############Request Processing started for request-id ab and esbURL is /api/v2/getCompanyData
+2024-11-01 05:06:22,027 INFO [http-nio-9990-exec-3] c.n.a.f.GetDetails [GetDetails.java:20] 
+Inside getEncryption status.. for service code getCompanyData
+2024-11-01 05:06:22,107 DEBUG [http-nio-9990-exec-3] c.n.a.f.GetDetails [GetDetails.java:33] 
+Encryption status is N
+2024-11-01 05:06:22,108 INFO [http-nio-9990-exec-3] c.n.a.i.BaseInterceptor [BaseInterceptor.java:269] 
+Inside DDOS filtering
+2024-11-01 05:06:22,109 INFO [http-nio-9990-exec-3] c.n.a.f.GetDetails [GetDetails.java:170] 
+Inside get error codes.
+2024-11-01 05:06:22,184 INFO [http-nio-9990-exec-3] c.n.a.f.AuthenticationFilter [AuthenticationFilter.java:30] 
+inside request param validation
+2024-11-01 05:06:22,184 INFO [http-nio-9990-exec-3] c.n.a.f.AuthenticationFilter [AuthenticationFilter.java:76] 
+In Timestamp validation
+2024-11-01 05:06:22,184 INFO [http-nio-9990-exec-3] c.n.a.f.AuthenticationFilter [AuthenticationFilter.java:82] 
+The timestamp difference is--
+2024-11-01 05:06:22,185 ERROR [http-nio-9990-exec-3] c.n.a.i.BaseInterceptor [BaseInterceptor.java:333] 
+Invalid timestamp
+2024-11-01 05:06:22,185 INFO [http-nio-9990-exec-3] c.n.a.p.ExceptionProcessor [ExceptionProcessor.java:28] 
+Auditing records in AuditDataProcessor.
+2024-11-01 05:06:22,292 INFO [pool-3-thread-1] c.n.a.p.ExceptionProcessor [ExceptionProcessor.java:80] 
+Auditing in database.
+2024-11-01 05:06:22,301 DEBUG [http-nio-9990-exec-3] o.s.w.s.DispatcherServlet [FrameworkServlet.java:1131] 
+Completed 200 OK
+2024-11-01 05:06:31,740 DEBUG [http-nio-9990-exec-4] o.s.w.s.DispatcherServlet [LogFormatUtils.java:119] 
+POST "/api/v2/getCompanyData", parameters={}
+2024-11-01 05:06:31,745 DEBUG [http-nio-9990-exec-4] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMapping.java:522] 
+Mapped to com.nws.api.controller.DiamControllerVer2#getCompanyData(String, HttpServletRequest, HttpServletResponse)
+2024-11-01 05:06:31,745 INFO [http-nio-9990-exec-4] c.n.a.i.BaseInterceptor [BaseInterceptor.java:52] 
+Inside prehandle
+2024-11-01 05:06:31,746 INFO [http-nio-9990-exec-4] c.n.a.i.BaseInterceptor [BaseInterceptor.java:232] 
+############Request Processing started for request-id ab and esbURL is /api/v2/getCompanyData
+2024-11-01 05:06:31,747 INFO [http-nio-9990-exec-4] c.n.a.f.GetDetails [GetDetails.java:20] 
+Inside getEncryption status.. for service code getCompanyData
+2024-11-01 05:06:31,820 DEBUG [http-nio-9990-exec-4] c.n.a.f.GetDetails [GetDetails.java:33] 
+Encryption status is N
+2024-11-01 05:06:31,822 INFO [http-nio-9990-exec-4] c.n.a.i.BaseInterceptor [BaseInterceptor.java:269] 
+Inside DDOS filtering
+2024-11-01 05:06:31,823 INFO [http-nio-9990-exec-4] c.n.a.f.GetDetails [GetDetails.java:170] 
+Inside get error codes.
+2024-11-01 05:06:31,902 INFO [http-nio-9990-exec-4] c.n.a.f.AuthenticationFilter [AuthenticationFilter.java:30] 
+inside request param validation
+2024-11-01 05:06:31,902 INFO [http-nio-9990-exec-4] c.n.a.f.AuthenticationFilter [AuthenticationFilter.java:76] 
+In Timestamp validation
+2024-11-01 05:06:31,902 INFO [http-nio-9990-exec-4] c.n.a.f.AuthenticationFilter [AuthenticationFilter.java:82] 
+The timestamp difference is--
+2024-11-01 05:06:31,902 INFO [http-nio-9990-exec-4] c.n.a.f.AuthenticationFilter [AuthenticationFilter.java:122] 
+Validating auth key for consumerCode ESP with auth key 36997d562e054a318475c4025b913338
+2024-11-01 05:06:31,903 INFO [http-nio-9990-exec-4] c.n.a.f.AuthenticationFilter [AuthenticationFilter.java:139] 
+Inside getAuthKeyFromDB..
+2024-11-01 05:06:31,975 INFO [http-nio-9990-exec-4] c.n.a.f.AuthenticationFilter [AuthenticationFilter.java:124] 
+Auth Key from DB for Consumer code ESP is  36997d562e054a318475c4025b913338
+2024-11-01 05:06:31,977 INFO [http-nio-9990-exec-4] c.n.a.f.AuthenticationFilter [AuthenticationFilter.java:139] 
+Inside getAuthKeyFromDB..
+2024-11-01 05:06:32,048 INFO [http-nio-9990-exec-4] c.n.a.f.AuthenticationFilter [AuthenticationFilter.java:175] 
+Whitelist Process Starts here....
+2024-11-01 05:06:32,049 INFO [http-nio-9990-exec-4] c.n.a.f.AuthenticationFilter [AuthenticationFilter.java:187] 
+Inside is whiteListed
+2024-11-01 05:06:32,113 DEBUG [http-nio-9990-exec-4] c.n.a.f.AuthenticationFilter [AuthenticationFilter.java:234] 
+Consumer allowed for getCompanyData
+2024-11-01 05:06:32,133 DEBUG [http-nio-9990-exec-4] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor [LogFormatUtils.java:119] 
+Read "application/json;charset=UTF-8" to ["<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cr="http://www.inv (truncated)..."]
+2024-11-01 05:06:32,141 INFO [http-nio-9990-exec-4] c.n.a.c.DiamControllerVer2 [DiamControllerVer2.java:826] 
+Entered::AbstractEmailDelivery::getRestTemplate()
+2024-11-01 05:06:32,180 DEBUG [http-nio-9990-exec-4] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+HTTP POST http://10.160.4.111:8081/soapropprod/ropservice/getCompanyData
+2024-11-01 05:06:32,184 DEBUG [http-nio-9990-exec-4] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+Accept=[text/plain, application/json, application/*+json, */*]
+2024-11-01 05:06:32,186 DEBUG [http-nio-9990-exec-4] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+Writing [<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cr="http://www.investeasy.gov.om/schema/cr-2.1">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cr:companyOverviewRequest>
+         <wsRequestHeader>
+            <requestId>6</requestId>
+            <requestDateTime>2016-04-12T00:00:00.000+04:00</requestDateTime>
+            <serviceRequester>PAEW_WSCR</serviceRequester>
+            <password>P@3W_WSC8</password>
+         </wsRequestHeader>
+         <wsRequestBody>
+            <crNumber>1234039</crNumber>
+         </wsRequestBody>
+      </cr:companyOverviewRequest>
+   </soapenv:Body>
+</soapenv:Envelope>] as "application/xml"
+2024-11-01 05:06:32,293 DEBUG [http-nio-9990-exec-4] o.s.w.c.RestTemplate [CompositeLog.java:127] 
+Response 200 OK
+2024-11-01 05:06:32,300 DEBUG [http-nio-9990-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor [AbstractMessageConverterMethodProcessor.java:268] 
+Using 'application/xml', given [*/*] and supported [application/xml]
+2024-11-01 05:06:32,301 DEBUG [http-nio-9990-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor [LogFormatUtils.java:119] 
+Writing ["<response><responseHeader><esbStatus> SUCCESS</esbStatus><targetStatus> SUCCESS </targetStatus><esbR (truncated)..."]
+2024-11-01 05:06:32,346 INFO [http-nio-9990-exec-4] c.n.a.p.AuditLogProcessor [AuditLogProcessor.java:31] 
+Auditing records in AuditData Processor.
